@@ -88,7 +88,7 @@ if __name__ == "__main__":
     model, filtered_data = train_model(location, max_price, theme)
 
     if model:
-        print("Model trained successfully!")
+        print("Model trained successfully!!")
         recommendations = recommend_venues(model, filtered_data)
         if recommendations:
             print("Recommended Venues:")
